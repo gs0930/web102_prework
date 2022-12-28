@@ -5,6 +5,7 @@
 */
 
 // import the JSON data about the crowd funded games from the games.js file
+import games from './games.js';
 import GAMES_DATA from './games.js';
 
 // create a list of objects to store the data about the games using JSON.parse
@@ -34,7 +35,7 @@ function addGamesToPage(games) {
 
         // create a new div element, which will become the game card
         <div class = "game-card">
-            document.createElement("card");
+            document.createElement("display");
         </div>
 
 
@@ -47,27 +48,27 @@ function addGamesToPage(games) {
         // between the end of the src attribute and the end of the tag ("/>")
         const display = `
             <div class = "games">
-                <h3>Name: ${games[i].name}<h3>
-                <h3>Description: ${games[i].description}<h3>
-                <h3>Goal: ${games[i].goal}<h3>
-                <div class = "game-img">
+                <h3>Name: ${games[i].name} </h3>
+                <h3>Description: ${games[i].description} </h3>
+                <h3>Goal: ${games[i].goal} </h3>
+                <div class = "game-img"/>
                     ${games[i].img}
                 </div>
             </div>
-        `
-
+        `;
 
         // append the game to the games-container
-        document.body.innerHTML = games;
-        games-container.append(display);
+        //document.body.innerHTML = games;
+        //games-container.append(display.innerHTML);
+        //console.log(display.innerHTML)
+        element.innerHTML = display;
     }
     
-
 }
 
 // call the function we just defined using the correct variable
 // later, we'll call this function using a different list of games
-
+addGamesToPage(games);
 
 /*************************************************************************************
  * Challenge 4: Create the summary statistics at the top of the page displaying the
