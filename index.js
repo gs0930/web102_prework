@@ -34,34 +34,40 @@ function addGamesToPage(games) {
 
 
         // create a new div element, which will become the game card
-        <div class = "game-card">
-            document.createElement("display");
-        </div>
+        // <div class = "game-card">
+        //     document.createElement(display);
+        // </div>
+
+        const element = document.createElement("div")
+        element.className = "game-card"
 
 
         // add the class game-card to the list
-        element.classList.add("game-card");
+        //element.classList.add("game-card");
 
         // set the inner HTML using a template literal to display some info 
         // about each game
         // TIP: if your images are not displaying, make sure there is space
         // between the end of the src attribute and the end of the tag ("/>")
+        const game = JSON.parse(games);
         const display = `
             <div class = "games">
-                <h3>Name: ${games[i].name} </h3>
-                <h3>Description: ${games[i].description} </h3>
-                <h3>Goal: ${games[i].goal} </h3>
-                <div class = "game-img"/>
-                    ${games[i].img}
-                </div>
+                <h3>Name: ${game[i].name} </h3>
+                <h3>Description: ${game[i].description} </h3>
+                <h3>Goal: ${game[i].goal} </h3>
+                <img id = "game-img" src = "${game[i].img}" width = "200" height ="200"/>
             </div>
         `;
+        
 
         // append the game to the games-container
-        //document.body.innerHTML = games;
-        //games-container.append(display.innerHTML);
-        //console.log(display.innerHTML)
+        
         element.innerHTML = display;
+        gamesContainer.append(element);
+
+        // const addGame = (newcard) => {
+        //     games-container.append(newcard);
+        // }
     }
     
 }
