@@ -37,7 +37,7 @@ GIF created with ...  https://gifcap.dev/
 ## Notes
 
 Describe any challenges encountered while building the app.
-It was difficult to debug sometimes and catch typos. Learning javascript was fun but a bit challenging.
+It was difficult to debug sometimes and catch typos. Learning more javascript was fun but a bit challenging.
 
 ## License
 
