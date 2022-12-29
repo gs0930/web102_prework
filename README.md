@@ -24,6 +24,7 @@ I edited the CSS so that the buttons for the filter buttons would be better.
 
 Here's a walkthrough of implemented features:
 
+https://imgur.com/a/mzz8Xqg
 <img src="https://imgur.com/a/mzz8Xqg" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
