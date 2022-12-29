@@ -76,4 +76,10 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    font-size: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(98, 214, 253);
 }
