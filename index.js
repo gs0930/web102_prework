@@ -32,15 +32,10 @@ function addGamesToPage(games) {
     // loop over each item in the data
     for (let i = 0; i < games.length; i++){
 
-
         // create a new div element, which will become the game card
-        // <div class = "game-card">
-        //     document.createElement(display);
-        // </div>
 
         const element = document.createElement("div")
         element.className = "game-card"
-
 
         // add the class game-card to the list
         //element.classList.add("game-card");
@@ -66,9 +61,6 @@ function addGamesToPage(games) {
         element.innerHTML = display;
         gamesContainer.append(element);
 
-        // const addGame = (newcard) => {
-        //     games-container.append(newcard);
-        // }
     }
     
 }
@@ -142,12 +134,11 @@ function filterFundedOnly() {
     let listOfFunded = GAMES_JSON.filter((game)=>{
         return game.pledged >= game.goal;
     });
-    addGamesToPage(listOfFunded); 
-
     // use filter() to get a list of games that have met or exceeded their goal
 
 
     // use the function we previously created to add unfunded games to the DOM
+    addGamesToPage(listOfFunded); 
 
 }
 
@@ -156,7 +147,6 @@ document.getElementById("all-btn").addEventListener("click", showAllGames);
 
 function showAllGames() {
     deleteChildElements(gamesContainer);
-
 
     // add all games from the JSON data to the DOM
     let all = GAMES_JSON.filter((game)=>{
