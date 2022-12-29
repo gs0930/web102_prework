@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] List anything else that you can get done to improve the app functionality!
 I edited the CSS so that the buttons for the filter buttons would be better.
 
 ## Video Walkthrough
@@ -27,7 +27,7 @@ Here's a walkthrough of implemented features:
 <img src='=https://imgur.com/a/mzz8Xqg' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ...  https://gifcap.dev/
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
