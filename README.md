@@ -1,8 +1,8 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Sea Monster*
 
 Submitted by: **Emily Suh**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: **20** hours spent in total
 
@@ -24,7 +24,7 @@ I edited the CSS so that the buttons for the filter buttons would be better.
 
 Here's a walkthrough of implemented features:
 
-<img src='=https://imgur.com/a/mzz8Xqg' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/mzz8Xqg' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  https://gifcap.dev/
